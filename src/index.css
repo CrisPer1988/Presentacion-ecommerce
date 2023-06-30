@@ -1,0 +1,48 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: rgb(16, 19, 58);
+  color: white;
+ 
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.content {
+  padding: 10px 40px;
+}
+
+img {
+  width: 30%;
+  position: absolute;
+  z-index: -2;
+  top: 25%;
+  animation: roll 8s infinite;
+}
+
+@keyframes roll {
+  0% {
+    opacity: .3;
+    transform: rotate(0deg)
+  }
+
+  50% {
+    width: 25%;
+    opacity: .1;
+  }
+ 
+  100% {
+    opacity: .3;
+    transform: rotate(360deg)
+  }
+}
+
+a {
+  color: white;
+}
+

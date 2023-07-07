@@ -14,7 +14,7 @@ const Home = () => {
             <li>Plantillas persolanizadas/ Derian /</li>
             <li>Dashboard/ Cristian /</li>
             <li>Web usuario final/ Cristian /</li>
-            
+            <li>Mision/vision/objetivo</li>
         </ul>
         <img src={image} alt="" />
     </header>

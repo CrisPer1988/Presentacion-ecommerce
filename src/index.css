@@ -1,9 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  background-color: rgb(16, 19, 58);
+  background-color: rgb(10, 11, 35);
   color: white;
  
   font-synthesis: none;
@@ -13,36 +19,19 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.content {
-  padding: 10px 40px;
-}
-
-img {
-  width: 30%;
-  position: absolute;
-  z-index: -2;
-  top: 25%;
-  animation: roll 8s infinite;
-}
-
-@keyframes roll {
-  0% {
-    opacity: .3;
-    transform: rotate(0deg)
-  }
-
-  50% {
-    width: 25%;
-    opacity: .1;
-  }
- 
-  100% {
-    opacity: .3;
-    transform: rotate(360deg)
-  }
-}
-
-a {
+ a {
   color: white;
+  text-decoration: none;
 }
+
+li {
+  list-style: none;
+  
+} 
+
+.content {
+  padding: 80px 50px;
+}
+
+
 

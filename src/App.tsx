@@ -4,7 +4,7 @@ function App() {
 
 
   return (
-    <div className="content">
+    <div>
       <Navigation/>
     </div>
       

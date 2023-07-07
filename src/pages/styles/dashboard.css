@@ -1,0 +1,43 @@
+.title {
+    text-align: center;
+    
+    margin: 20px 0 50px 0;
+}
+
+.content__dashboard {
+    display: grid;
+   
+   
+   
+}
+
+.dashboard__header {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    padding: 0 50px;
+    gap: 6rem;
+}
+
+.img__dashboard {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    /* margin: 0 auto; */
+    margin-top: 50px;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.active {
+    position: absolute;
+    max-width: 100%;
+    top: 2%;
+    left:0%;
+    
+}
+
+.items {
+    text-decoration: underline;
+}
+

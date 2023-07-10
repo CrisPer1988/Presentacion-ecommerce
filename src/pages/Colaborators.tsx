@@ -5,7 +5,7 @@ import "./styles/colaborators.css"
 const Colaborators = () => {
   return (
     <>
-    <div  className="content">
+    <div className="content">
     <div>
       <h1>Desarrolladores</h1>
       <h4>Nuestro equipo de profesionales esta compuesto por personas de distintos puntos de America Latina</h4>

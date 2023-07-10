@@ -1,0 +1,27 @@
+
+
+.container__technologies {
+    margin: 1em;
+    text-align: center;
+}
+
+.title__technologies {
+    margin: 1em;
+    color: var(--color-blue2);color: var(--color-blue2);
+    font-size: 30px;
+}
+
+.description__technologies {
+    margin-left: 2em;
+    margin-right: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+.textDesign__technologies {
+    margin:  0 auto;
+    margin-top: 2em;
+    width: 400px;
+    
+    
+}

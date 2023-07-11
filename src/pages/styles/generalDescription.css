@@ -1,0 +1,77 @@
+                    /*--- General Description ---*/
+
+/*--- Colors ---*/
+
+:root{
+    --color-blue:#1877F2;
+    --color-blue2:#0E2954;
+    --color-blue3:#0d4cb1;
+    --color-secoday:#000000;
+}
+
+
+.container__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title__description {
+    color: var(--color-blue3);
+    margin-top: 1em;
+    padding-left: 1.5em;
+    position: absolute;
+    top: 0;
+    left: 1vh;
+}
+
+.text__description {
+    margin-top: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.introducBox__description {
+    margin: 2em;
+    margin-top: 3em;
+    padding: 1.7em;
+    border: 2px solid var(--color-blue2);
+    border-radius: 0.2rem;
+    max-width: 600px;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    cursor: pointer;
+}
+
+/* .title__introducBox {} */
+
+
+.text__introducBox {
+    color: var(--color-blue2);
+}
+
+.imgBox__description {
+    width: max-content;
+    border: 1px solid var(--color-blue2);
+    border-radius: 0.2rem;
+    padding: 0.9em;
+
+}
+
+.img__box {
+width: 350px;
+max-width: 420px;
+}
+
+.ola {
+    margin-top: 1.9em;
+    display: flex;
+    gap: 2em;
+    margin-bottom: 2em;
+}

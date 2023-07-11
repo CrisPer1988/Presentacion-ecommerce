@@ -1,0 +1,9 @@
+.list_nav {
+display: flex;
+list-style: none;
+gap: 1em;
+}
+
+.li__list {
+    text-decoration: none;
+}

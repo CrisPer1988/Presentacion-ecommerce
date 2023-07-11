@@ -5,34 +5,40 @@ import GeneralDescription from "../pages/GeneralDescription";
 import Dashboard from "../pages/Dashboard";
 import TechnologiesEmployed from "../pages/TechnologiesEmployed";
 import WebUsers from "../pages/WebUsers";
+import "./styles/navigator.css"
+import { useState } from "react";
 
 
 const Navigation = () => {
-  // const [show, setShow] = useState(true)
+  const [show, setShow] = useState(true)
 
-  // const handleClick = () => {
-  //   setShow(!show)
-  // }
+  const handleClick = () => {
+    setShow(!show)
+  }
 
   return (
     <>
     <BrowserRouter>
+    {
+            show ? <i onClick={handleClick} className='bx bx-menu icons__nav'></i> : <i onClick={handleClick} className='bx bx-x icons__nav icons__nav-close'></i>
+          }
     <nav>
-        <ul>
+   
+        <ul className={`menu ${show ? "show" : ""}`}>
             <li>
-               <NavLink to="/home">Home</NavLink> 
+               <NavLink className="items__nav" onClick={handleClick} to="/home">Home</NavLink> 
             </li>
             <li>
-            <NavLink to="/general">General</NavLink> 
+            <NavLink className="items__nav" onClick={handleClick} to="/general">General</NavLink> 
             </li>
             <li>
-            <NavLink to="/dashboard">Dashboard</NavLink> 
+            <NavLink className="items__nav" onClick={handleClick} to="/dashboard">Dashboard</NavLink> 
             </li>
             <li>
-            <NavLink to="/technologies">Technologies</NavLink> 
+            <NavLink className="items__nav" onClick={handleClick} to="/technologies">Technologies</NavLink> 
             </li>
             <li>
-            <NavLink to="/webUsers">Web Users</NavLink> 
+            <NavLink className="items__nav" onClick={handleClick} to="/webUsers">Web Users</NavLink> 
             </li>
         </ul>
     </nav>

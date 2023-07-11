@@ -26,6 +26,15 @@ h1,h2,h3,h4,p,ul {
     margin-bottom: 0;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 button {
     border: none;
 }

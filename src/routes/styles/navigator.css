@@ -2,16 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 3rem;
     transition: transform 0.8s;
     position: absolute;
+    padding: 50px;
     top: 0;
-    padding: 30px;
-    margin-bottom: 50px;
     background-color: rgb(31, 32, 69);
+    color: white;
     z-index: 4;
     height: 100vh;
-    
+  }
+
+
+
+  .items__nav {
+    margin-top: 80px;
   }
 
   .show {
@@ -21,8 +27,8 @@
   .icons__nav {
     font-size: 2.2rem;
     position: absolute;
-    top: 15px;
-    left: 20px;
+    top: 5px;
+    left: 10px;
     z-index: 5;
     
   }

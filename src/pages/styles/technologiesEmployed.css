@@ -16,12 +16,42 @@
     margin-right: 2em;
     display: flex;
     flex-direction: row;
-}
+} 
 
 .textDesign__technologies {
     margin:  0 auto;
     margin-top: 2em;
     width: 400px;
-    
-    
+}
+
+.inconsBox__technologies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1em;
+    margin-top:4em;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.boxDetailsIcon {
+    background-color: var(--color-gray);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0.9em;
+    gap: 0.7em;
+    width: 360px;
+    height: 60px;
+    border-radius: 0.6em;
+    cursor: pointer;
+}
+
+.icon__technologies {
+    color: var(--color-blue2);
+    font-size: 40px;
+}
+
+.boxDetailsIcon {
+    color: var(--color-blue2);
 }

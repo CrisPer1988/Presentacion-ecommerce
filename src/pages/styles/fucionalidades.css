@@ -1,0 +1,100 @@
+/* funcionalidades.css */
+
+/*--- Colors ---*/
+
+:root {
+  --color-blue: #1877f2;
+  --color-blue2: #0e2954;
+  --color-blue3: #0d4cb1;
+  --color-secoday: #000000;
+}
+
+.container__funcionalidades {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo__funcionalidades {
+  color: var(--color-blue3);
+  margin-top: 1em;
+  padding-left: 1.5em;
+  position: relative;
+  top: 0;
+  left: 1vh;
+  cursor: pointer;
+}
+
+.introducbox__funcionalidades {
+  margin: 2em;
+  margin-top: 3em;
+  padding: 1.7em;
+  border: 2px solid var(--color-blue2);
+  border-radius: 0.2rem;
+  max-width: 600px;
+  cursor: pointer;
+}
+
+.titulo__introducbox {
+  font-size: 24px;
+  color: var(--color-blue2);
+  margin-bottom: 0.5em;
+}
+
+.text__introducbox {
+  color: var(--color-blue2);
+  font-size: 24px;
+  text-align: justify;
+  overflow-wrap: break-word;
+}
+
+.text__funcionalidades {
+  font-size: 24px;
+  text-align: justify;
+  overflow-wrap: break-word;
+}
+
+.caja__text__funcionalidades {
+  border: 2px solid var(--color-blue2);
+  border-radius: 0.2rem;
+  padding: 1em;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.funtion {
+  font-size: 24px;
+}
+
+.imgf__funtionalidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.img__f {
+  width: 100%;
+  max-width: 420px;
+}
+
+.imf__box {
+  width: 350px;
+  max-width: 420px;
+}
